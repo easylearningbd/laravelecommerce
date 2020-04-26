@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>metisMenu - hoverable</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/metismenu/dist/metisMenu.min.css" />
+  <link rel="stylesheet" href="assets/css/mm-vertical-hover.css">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+  <script src="https://unpkg.com/metismenu"></script>
+</head>
+
+<body>
+ 
+  <div class="container">
+    
+   
+    <div class="row">
+      <div class="col-md-3">
+        <nav class="sidebar-nav">
+          <ul class="metismenu" id="menu1">
+            <li>
+              <a class="has-arrow" href="#">
+                <span class="fa fa-fw fa-github fa-lg"></span>
+                metisMenu
+              </a>
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-fw fa-code-fork"></span> Fork
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-fw fa-star"></span> Star
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="fa fa-fw fa-exclamation-triangle"></span> Issues
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="#" aria-expanded="false">Menu 0</a>
+              <ul>
+                <li><a href="#">item 0.1</a></li>
+                <li><a href="#">item 0.2</a></li>
+                <li><a href="#">onokumus</a></li>
+                <li><a href="#">item 0.4</a></li>
+              </ul>
+            </li>
+            <li id="removable">
+              <a class="has-arrow" href="#" aria-expanded="false">Menu 1</a>
+              <ul>
+                <li><a href="#">item 1.1</a></li>
+                <li><a href="#">item 1.2</a></li>
+                <li>
+                  <a class="has-arrow" href="#" aria-expanded="false">Menu 1.3</a>
+                  <ul>
+                    <li><a href="#">item 1.3.1</a></li>
+                    <li><a href="#">item 1.3.2</a></li>
+                    <li><a href="#">item 1.3.3</a></li>
+                    <li><a href="#">item 1.3.4</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">item 1.4</a></li>
+                <li>
+                  <a class="has-arrow" href="#" aria-expanded="false">Menu 1.5</a>
+                  <ul>
+                    <li><a href="#">item 1.5.1</a></li>
+                    <li><a href="#">item 1.5.2</a></li>
+                    <li><a href="#">item 1.5.3</a></li>
+                    <li><a href="#">item 1.5.4</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="has-arrow" href="#" aria-expanded="false">Menu 2</a>
+              <ul>
+                <li><a href="#">item 2.1</a></li>
+                <li><a href="#">item 2.2</a></li>
+                <li><a href="#">item 2.3</a></li>
+                <li><a href="#">item 2.4</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+	  
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hoverable Vertical Menu</h5>
+            <pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+$(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+
+ $(<span class="hljs-string">'#menu1'</span>).metisMenu();
+
+});
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/mm-vertical-hover.js" charset="utf-8"></script>
+
+  </div>
+
+</body>
+
+</html>

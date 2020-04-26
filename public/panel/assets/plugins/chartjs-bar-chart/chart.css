@@ -1,0 +1,13 @@
+#bar-chart{
+    background-color: rgb(55, 71, 79);
+    width: 800px;
+    height: 350px;
+    font-family: Lato, Helvetica-Neue, monospace;
+}
+#bar-canvas{
+    position: absolute;
+    top: 75px;
+    left: 120px;
+}
+
+
